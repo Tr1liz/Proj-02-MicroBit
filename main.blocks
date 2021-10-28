@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="H0ZwMPvRW/f;-ijt*x~_" x="119" y="-218"><statement name="HANDLER"><block type="device_show_leds" id="~ZAGq}igS(?5bi,mfw3_"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><comment>If no buttons are pressed, a straight-mouth face is shown on the LED grid.</comment></block></statement></block><block type="device_button_event" id="bs^J(S9b{W_KiJCugoa#" x="339" y="-212"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="K6Jpx%9;P|37eLhWodSi"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="hYy0OW+^GSY*DR!4NKH)"><value name="pause"><shadow type="timePicker" id="}6Cm_p36|Gn:*3!M)SV="><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="yNwtA*Gq(Y-jUreB_~kP"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><comment>If no buttons are pressed, a straight-mouth face is shown on the LED grid.</comment></block></next></block></next></block></statement></block><block type="device_button_event" id="h#E5))qgBP|cGZJKmAfo" x="587" y="-224"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="e;jRZtyOy)}3R*=#Pn*["><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="B*t18A.)]pd%TevnvV7J"><value name="pause"><shadow type="timePicker" id="i42nN*Jt2b=GEfUW0}.)"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="+2x*Xpg6X?e5DgHPeU.%"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><comment>If no buttons are pressed, a straight-mouth face is shown on the LED grid.</comment></block></next></block></next></block></statement></block></xml>
